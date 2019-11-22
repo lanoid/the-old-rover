@@ -1,4 +1,6 @@
-# red-mars 🚀🚙
+# The old rover 🚀🚙
+
+🚧 Work in progress
 
 ## To beagle and beyond!
 
@@ -21,6 +23,3 @@ To run please ensure you have git and npm installed, clone the repo `git clone h
 - One interface could allow a path to be selected for a given rover, then display the location of the rover as and when the rover moves to your desired location, this could be achieved by the rover sending it’s current reference after completing a movement.
 - Parse the instructions as originally given - with a managing function.
 - Get the X & Y axis right the first time (I have had to constantly 👉 for Left and Right).
-# Rover Code to send instructions to roboty on Mars
-
-🚧 Work in progress
