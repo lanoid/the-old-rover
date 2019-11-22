@@ -1,0 +1,25 @@
+{
+  "name": "red-mars",
+  "version": "1.0.0",
+  "description": "To beagle and beyond!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "testOnce": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanoid/red-mars.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lanoid/red-mars/issues"
+  },
+  "homepage": "https://github.com/lanoid/red-mars#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.6.0",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0"
+  }
+}
