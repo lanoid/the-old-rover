@@ -1,3 +1,5 @@
+import parseInstructions from './command';  
+
 describe('Parse Input', function () {
   
     const instructions = `55
@@ -8,7 +10,7 @@ describe('Parse Input', function () {
     
     
       it('should read the input into separate instructions', function () {
-        expect(parseInstructions(instructions)).to.deep.equal(
+        expect(parseInstructions(instructions)).toEqual(
           {
             bounds : {
               x: 5,

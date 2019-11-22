@@ -1,6 +1,6 @@
 // Interpret commands for rovers
 
-function parseInstructions(inst) {
+module.exports = function parseInstructions(inst) {
     let roving = {
       bounds: {
         x: null,
